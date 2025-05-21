@@ -5,6 +5,7 @@ import requests
 import os
 from docx2pdf import convert
 
+#RESUME BUILDER USING TKINTER
 def get_github_info(username):                           #function to get github info
     user_url = f"https://api.github.com/users/{username}"
     repos_url = f"https://api.github.com/users/{username}/repos"
